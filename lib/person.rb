@@ -1,4 +1,4 @@
-rquire "pry"
+require "pry"
 class Person
   attr_accessor :bank_account
   attr_reader :happiness, :hygiene, :name
