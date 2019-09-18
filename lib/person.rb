@@ -21,7 +21,7 @@ class Person
   end
   
   def hygiene=(points)
-    binding.pry
+    #binding.pry
     if points >10
       @hygiene= 10
     elsif points < 0 
